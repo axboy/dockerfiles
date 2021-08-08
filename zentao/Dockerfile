@@ -1,6 +1,6 @@
 FROM kubeless/unzip:latest as builder
-ADD http://dl.cnezsoft.com/zentao/12.3.2/ZenTaoPMS.12.3.2.zip /
-RUN unzip ZenTaoPMS.12.3.2.zip
+ADD https://www.zentao.net/dl/zentao/15.2/ZenTaoPMS.15.2.zip /
+RUN unzip ZenTaoPMS.15.2.zip
 
 FROM php:7.4.7-apache
 MAINTAINER axboy
