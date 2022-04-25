@@ -1,0 +1,16 @@
+{
+    "name": "node-app",
+    "version": "1.0.0",
+    "description": "webserver by nodejs",
+    "main": "app.js",
+    "author": "chovy.zeng",
+    "dependencies": {
+        "express": "latest",
+        "http": "latest",
+        "querystring": "latest",
+        "http-proxy-middleware": "0.19.2"
+    },
+    "engines": {
+        "node": "*"
+    }
+}
