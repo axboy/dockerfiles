@@ -6,7 +6,7 @@
 docker run -d --name frpc \
   --network host \
   -v `pwd`/frpc.ini:/frp/frpc.ini \
-  axboy:0.33.0 \
+  axboy/frp:0.44.0 \
   /frp/frpc -c /frp/frpc.ini
 ```
 
@@ -16,6 +16,6 @@ docker run -d --name frpc \
 docker run -d --name frps \
   --network host \
   -v `pwd`/frps.ini:/frp/frps.ini \
-  axboy:0.33.0 \
+  axboy/frp:0.44.0 \
   /frp/frps -c /frp/frps.ini
 ```
